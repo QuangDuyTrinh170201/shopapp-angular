@@ -1,0 +1,14 @@
+.navbar .container .navbar-brand {
+   color: rgb(43, 44, 46);
+}
+
+.navbar .container .navbar-nav .nav-link {
+   color: rgb(178, 178, 203);
+   border-radius: 18px;
+   padding: 8px, 16px;
+}
+
+.navbar .container .navbar-nav .nav-link.active {
+   background-color: rgb(127, 68, 255) !important;
+   color: white !important;
+}
