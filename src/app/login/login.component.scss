@@ -1,0 +1,72 @@
+.container{
+   color:gray;
+   height: 100vh;
+}
+.login-form{
+   background-color: rgb(223, 223, 223);
+   border-radius: 10px;
+   padding: 20px;
+   max-width: 500px;
+   border: 1px solid rgb(32, 34, 60);
+   align-items: center;
+   justify-content: center;
+}
+.login-header{
+   text-align:center;
+   margin-bottom: 20px;
+}
+.divider-nospace{
+   border-top: 1px solid black;
+}
+.password-field{
+   position: relative;
+}
+.form-control:focus{
+   outline: none;
+   border-color: transparent;
+}
+.password-toggle{
+   position: absolute;
+   top: 70%;
+   right: 10px;
+   transform: translateY(-50%);
+   cursor: pointer;
+}
+
+.form-check-input{
+   margin-right: 5px;
+}
+.register-link{
+   text-decoration: none;
+}
+.checkbox-text{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 10px;
+}
+.access-right{
+   margin-top: 20px;
+   width: 200px;
+   border: 1px solid black;
+}
+.form-control::placeholder{
+   color: grey;
+   opacity: 1;
+}
+
+.login-button{
+   background: linear-gradient(to right, rgb(225, 64, 180), rgb(126, 43, 237));
+   color: white;
+   border-radius: 30px;
+   width:100%;
+   padding: 10px 0;
+   margin-top: 20px;
+   border: none;
+}
+
+.divider{
+   height:1px;
+   background-color: black;
+   margin: 20px;
+}

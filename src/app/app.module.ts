@@ -7,6 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { OrderComponent } from './order/order.component';
 import { OrderConfirmComponent } from './order-confirm/order-confirm.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { DetailProductComponent } from './detail-product/detail-product.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { OrderConfirmComponent } from './order-confirm/order-confirm.component';
     HeaderComponent,
     FooterComponent,
     OrderComponent,
-    OrderConfirmComponent
+    OrderConfirmComponent,
+    LoginComponent,
+    RegisterComponent,
+    DetailProductComponent
   ],
   imports: [
     BrowserModule,
@@ -23,8 +29,11 @@ import { OrderConfirmComponent } from './order-confirm/order-confirm.component';
   providers: [],
   bootstrap: [
     // HomeComponent
-    //OrderComponent,
-    OrderConfirmComponent,
+    // OrderComponent,
+    // OrderConfirmComponent,
+    // LoginComponent,
+    // RegisterComponent,
+    DetailProductComponent,
   ]
 })
 export class AppModule { }
